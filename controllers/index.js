@@ -42,11 +42,11 @@ export const main = async (req, res, error) => {
     case 1:
       if (parseInt(menuArguments[0], 10) === 1) {
         response = `CON Hitamo amakuru ushaka \n
-                  1. Imihindagurikire y'ikirere`;
+                  1. Iteganyagihe`;
         break;
       } else {
         response = `CON Choose the information you need \n
-                  1. Climate change
+                  1. Weather Forecasting
       `;
         break;
       }

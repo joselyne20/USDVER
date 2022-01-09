@@ -1,0 +1,21 @@
+git fetch
+    4  cd USSD weather
+    5  ls -1
+    6  git fetch orign
+    7  git checkout feat/contentful-integration
+    8  heroku login
+    9  cd 'USSD Weather'
+   10  heroku git:remote -a ussd-weather
+   11  git add .
+   12  git commit -am "make it better"
+   13  git config --global user.email "uzarwanda@gmail.com"
+   14  git config --global user.name "uzarwanda"
+   15  git commit -am "make it better"
+   16  git push heroku master
+   17  yarn install
+   18  git push heroku master
+   19  yarn install:feat/contentful-integration
+   20  git push heroku feat/contentful-integration
+   21  git push heroku master:feat/contentful-integration
+   22  git push heroku feat/contentful-integration:master
+   23  history

@@ -1,10 +1,10 @@
 {
   "name": "menya-ussd",
   "version": "1.0.0",
-  "description": "USSD app to help the population access agriculture information with ease!",
+  "description": "USSD app to help the Rwandan access weather information easily!",
   "main": "index.js",
-  "repository": "git@github.com:avpaul/menya-ussd.git",
-  "author": "avpaul <vabimana@gmail.com>",
+  "repository": "https://github.com/joselyne20/weather-ussd.git ",
+  "author": "2JL <mjoselyne30@gmail.com>",
   "license": "MIT",
   "type": "module",
   "scripts": {
